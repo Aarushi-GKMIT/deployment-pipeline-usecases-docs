@@ -1,0 +1,15 @@
+site_name: Deployment Pipeline (Vercel Clone)
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Functional Documentation:
+      - Overview: functional/overview.md
+      - Architecture: functional/architecture.md
+      - Modules: functional/modules.md
+      - Database Design: functional/database.md
+  - Use Case Documentation:
+      - Business Overview: use-cases/business-overview.md
+      - User Flows: use-cases/user-flows.md
+      - Scenarios: use-cases/scenarios.md
+
