@@ -7,8 +7,7 @@ Each use case explains how different system components interact internally to de
 
 ## 1. User Authentication and Authorization
 
-**Goal:**  
-Provide secure sign-up and login for users.
+**Goal:** Provide secure sign-up and login for users.
 
 **Flow:**
 1. User sends a sign-up or login request to the API server.
@@ -26,8 +25,7 @@ Provide secure sign-up and login for users.
 
 ## 2. Project Management
 
-**Goal:**  
-Allow authenticated users to create and manage deployable projects linked to GitHub repositories.
+**Goal:** Allow authenticated users to create and manage deployable projects linked to GitHub repositories.
 
 **Flow:**
 1. User provides project name and GitHub repo URL.  
@@ -44,8 +42,7 @@ Allow authenticated users to create and manage deployable projects linked to Git
 
 ## 3. Build and Deployment Execution
 
-**Goal:**  
-Automate the build and deployment process when a user triggers a deployment.
+**Goal:** Automate the build and deployment process when a user triggers a deployment.
 
 **Flow:**
 1. User triggers **Deploy** from the dashboard.  
@@ -64,13 +61,18 @@ Automate the build and deployment process when a user triggers a deployment.
 
 ## 4. Reverse Proxy and File Streaming
 
-**Goal:**  
-Deliver the deployed React app to end users efficiently.
+**Goal:** Deliver the deployed React app to end users efficiently.
 
 **Flow:**
 1. User accesses the generated deployment URL.  
 2. Reverse proxy receives the request and retrieves static assets from the S3 bucket.  
 3. The files are streamed back to the client’s browser.
 
+---
 
+## 5. Use Case Diagram
+
+This diagram visually maps the actors and their interaction with the main system features discussed in the functional requirements.
+
+![UML Use Case Diagram for Frontend Deployment Pipeline](usecase-diagram.jpg)
 
