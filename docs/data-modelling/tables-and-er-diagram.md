@@ -64,9 +64,9 @@ erDiagram
         string email UK
         string role
         string password
-        datetime createdAt
-        datetime updatedAt
-        datetime deletedAt
+        datetime created_at
+        datetime updated_at
+        datetime deleted_at
     }
 
     projects {
@@ -74,20 +74,20 @@ erDiagram
         string name
         string git_url
         string user_id FK
-        datetime createdAt
-        datetime updatedAt
-        datetime deletedAt
+        datetime created_at
+        datetime updated_at
+        datetime deleted_at
     }
 
     deployments {
         string id PK
         string project_id FK
         string status
-        datetime createdAt
-        datetime updatedAt
-        datetime deletedAt
+        datetime created_at
+        datetime updated_at
+        datetime deleted_at
     }
 
-    USER ||--o{ PROJECT : owns
-    PROJECT ||--o{ DEPLOYMENT : has
+    users ||--o{ projects : owns
+    projects ||--o{ deployments : has
 ```
