@@ -58,7 +58,7 @@ This section outlines the database schema used in the project, detailing each ta
 
 ```mermaid
 erDiagram
-    USER {
+    users {
         string id PK
         string name
         string email UK
@@ -66,23 +66,26 @@ erDiagram
         string password
         datetime createdAt
         datetime updatedAt
+        datetime deletedAt
     }
 
-    PROJECT {
+    projects {
         string id PK
         string name
         string git_url
         string user_id FK
         datetime createdAt
         datetime updatedAt
+        datetime deletedAt
     }
 
-    DEPLOYMENT {
+    deployments {
         string id PK
         string project_id FK
         string status
         datetime createdAt
         datetime updatedAt
+        datetime deletedAt
     }
 
     USER ||--o{ PROJECT : owns
