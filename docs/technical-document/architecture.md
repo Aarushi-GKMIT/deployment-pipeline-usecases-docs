@@ -21,10 +21,9 @@ Use vercel for deployment of frontend.
 
 1. **Amazon VPC (Virtual Private Cloud)**
 2. **Amazon EC2 (Elastic Compute Cloud)**
-3. **Amazon RDS (Relational Database Service)**
-4. **Amazon ECR (Elastic Container Registry)**
-5. **Amazon ECS (Elastic Container Service)**
-6. **Amazon S3 (Simple Storage Service)**
+3. **Amazon ECR (Elastic Container Registry)**
+4. **Amazon ECS (Elastic Container Service)**
+5. **Amazon S3 (Simple Storage Service)**
 
 ---
 
@@ -81,11 +80,7 @@ Contains publicly accessible resources:
 
 ### Database Layer
 
-#### Amazon RDS (Relational Database Service)
-- **Purpose**: Persistent data storage
-- **Network**: Within public subnet
-- **Access**: Connected to EC2 backend
-- **Security**: Database credentials secured
+Aiven Cloud is used
 
 ### Storage Layer
 
