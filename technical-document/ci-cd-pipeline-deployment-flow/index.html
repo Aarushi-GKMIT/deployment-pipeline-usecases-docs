@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../..">
+        <link rel="prev" href="../test-plan/">
       
       
-        <link rel="next" href="../functional-usecases/">
+        <link rel="next" href="../code-merge-workflow/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Overview - Deployment Pipeline</title>
+        <title>CI/CD Pipeline and Deployment Flow - Deployment Pipeline</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#system-overview" class="md-skip">
+        <a href="#cicd-pipeline-and-deployment-flow" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Overview
+              CI/CD Pipeline and Deployment Flow
             
           </span>
         </div>
@@ -213,20 +213,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -242,7 +240,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Functional Documentation
@@ -253,32 +251,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Overview
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../functional/overview/" class="md-nav__link">
         
   
   
@@ -289,119 +265,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#workflow-summary" class="md-nav__link">
-    <span class="md-ellipsis">
-      Workflow Summary
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Workflow Summary">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#end-to-end-deployment-flow" class="md-nav__link">
-    <span class="md-ellipsis">
-      End-to-End Deployment Flow
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#core-functional-modules" class="md-nav__link">
-    <span class="md-ellipsis">
-      Core Functional Modules
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Core Functional Modules">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-user-authentication-and-autherization" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. User Authentication and Autherization
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-project-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. Project Management
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-automated-build-deployment" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. Automated Build &amp; Deployment
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-file-hosting-and-delivery" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. File Hosting and Delivery
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5-database-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. Database Management
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#functional-flow-summary" class="md-nav__link">
-    <span class="md-ellipsis">
-      Functional Flow Summary
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -414,7 +277,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../functional-usecases/" class="md-nav__link">
+      <a href="../../functional/functional-usecases/" class="md-nav__link">
         
   
   
@@ -600,18 +463,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -627,7 +492,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Technical Document
@@ -641,7 +506,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../technical-document/architecture/" class="md-nav__link">
+      <a href="../architecture/" class="md-nav__link">
         
   
   
@@ -664,7 +529,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../technical-document/data-flow-diagram/" class="md-nav__link">
+      <a href="../data-flow-diagram/" class="md-nav__link">
         
   
   
@@ -687,7 +552,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../technical-document/authentication-and-autherization/" class="md-nav__link">
+      <a href="../authentication-and-autherization/" class="md-nav__link">
         
   
   
@@ -710,7 +575,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../technical-document/technical-stack/" class="md-nav__link">
+      <a href="../technical-stack/" class="md-nav__link">
         
   
   
@@ -733,7 +598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../technical-document/test-plan/" class="md-nav__link">
+      <a href="../test-plan/" class="md-nav__link">
         
   
   
@@ -753,10 +618,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../technical-document/ci-cd-pipeline-deployment-flow/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    CI/CD Pipeline and Deployment Flow
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -767,6 +654,128 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-branch-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Branch Strategy
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Branch Strategy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#frontend-branches" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frontend Branches
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backend-branches" class="md-nav__link">
+    <span class="md-ellipsis">
+      Backend Branches
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-cicd-pipeline-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. CI/CD Pipeline Overview
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. CI/CD Pipeline Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-continuous-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Continuous Integration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-artifact-packaging" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 Artifact Packaging
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-secure-transfer-to-ec2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 Secure Transfer to EC2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-remote-deployment-via-ssh" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4 Remote Deployment via SSH
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cicd-pipeline-for-backend-deployment" class="md-nav__link">
+    <span class="md-ellipsis">
+      CI/CD Pipeline for Backend Deployment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cicd-pipeline-for-frontend-deployment" class="md-nav__link">
+    <span class="md-ellipsis">
+      CI/CD Pipeline for Frontend Deployment
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -779,7 +788,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../technical-document/code-merge-workflow/" class="md-nav__link">
+      <a href="../code-merge-workflow/" class="md-nav__link">
         
   
   
@@ -802,7 +811,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../technical-document/Security-Scanning/" class="md-nav__link">
+      <a href="../Security-Scanning/" class="md-nav__link">
         
   
   
@@ -852,19 +861,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#workflow-summary" class="md-nav__link">
+  <a href="#1-branch-strategy" class="md-nav__link">
     <span class="md-ellipsis">
-      Workflow Summary
+      1. Branch Strategy
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Workflow Summary">
+    <nav class="md-nav" aria-label="1. Branch Strategy">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#end-to-end-deployment-flow" class="md-nav__link">
+  <a href="#frontend-branches" class="md-nav__link">
     <span class="md-ellipsis">
-      End-to-End Deployment Flow
+      Frontend Branches
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backend-branches" class="md-nav__link">
+    <span class="md-ellipsis">
+      Backend Branches
     </span>
   </a>
   
@@ -876,55 +894,46 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#core-functional-modules" class="md-nav__link">
+  <a href="#2-cicd-pipeline-overview" class="md-nav__link">
     <span class="md-ellipsis">
-      Core Functional Modules
+      2. CI/CD Pipeline Overview
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Core Functional Modules">
+    <nav class="md-nav" aria-label="2. CI/CD Pipeline Overview">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-user-authentication-and-autherization" class="md-nav__link">
+  <a href="#21-continuous-integration" class="md-nav__link">
     <span class="md-ellipsis">
-      1. User Authentication and Autherization
+      2.1 Continuous Integration
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-project-management" class="md-nav__link">
+  <a href="#22-artifact-packaging" class="md-nav__link">
     <span class="md-ellipsis">
-      2. Project Management
+      2.2 Artifact Packaging
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-automated-build-deployment" class="md-nav__link">
+  <a href="#23-secure-transfer-to-ec2" class="md-nav__link">
     <span class="md-ellipsis">
-      3. Automated Build &amp; Deployment
+      2.3 Secure Transfer to EC2
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#4-file-hosting-and-delivery" class="md-nav__link">
+  <a href="#24-remote-deployment-via-ssh" class="md-nav__link">
     <span class="md-ellipsis">
-      4. File Hosting and Delivery
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5-database-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. Database Management
+      2.4 Remote Deployment via SSH
     </span>
   </a>
   
@@ -936,9 +945,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#functional-flow-summary" class="md-nav__link">
+  <a href="#cicd-pipeline-for-backend-deployment" class="md-nav__link">
     <span class="md-ellipsis">
-      Functional Flow Summary
+      CI/CD Pipeline for Backend Deployment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cicd-pipeline-for-frontend-deployment" class="md-nav__link">
+    <span class="md-ellipsis">
+      CI/CD Pipeline for Frontend Deployment
     </span>
   </a>
   
@@ -960,77 +978,68 @@
 
 
 
-<h1 id="system-overview">System Overview</h1>
-<p>The <strong>Deployment Pipeline</strong> automates the process of building, deploying, and hosting frontend applications directly from GitHub repositories.<br />
-It enables users to go from source code to a live, shareable URL without manual setup or server configuration.</p>
+<h1 id="cicd-pipeline-and-deployment-flow">CI/CD Pipeline and Deployment Flow</h1>
+<p>This document explains the complete Continuous Integration / Continuous Deployment (CI/CD) pipeline along with the end-to-end deployment flow for both the frontend and backend services deployed on Amazon EC2. The system uses GitHub Actions for automation, PM2 for process management, Aiven for PostgreSQL, and Route 53 for DNS routing.</p>
 <hr />
-<h2 id="workflow-summary">Workflow Summary</h2>
-<p>When a user provides a GitHub repository URL and triggers deployment, the system executes a series of automated functions that ensure seamless application delivery.</p>
-<h3 id="end-to-end-deployment-flow">End-to-End Deployment Flow</h3>
-<ol>
-<li><strong>Repository Cloning</strong>  </li>
-<li>The API server authenticates the GitHub URL provided by the user.  </li>
-<li>The build server securely clones the source code repository into an isolated environment.  </li>
-<li>
-<p>Only the latest branch or commit is fetched to optimize performance and reduce build time.</p>
-</li>
-<li>
-<p><strong>Automated Build Process</strong>  </p>
-</li>
-<li>A build server, running as an ECS task, builds the project using pre-defined Docker images stored in AWS ECR.  </li>
-<li>The environment includes dependencies such as Node.js to compile React applications.  </li>
-<li>
-<p>Once the build completes, the system generates production-ready files (HTML, CSS, JS).</p>
-</li>
-<li>
-<p><strong>Artifact Upload to AWS S3</strong>  </p>
-</li>
-<li>The built static files are uploaded to a designated S3 bucket.  </li>
-<li>The system assigns each deployment a unique directory or version ID for organized storage and rollback capability.  </li>
-<li>
-<p>Appropriate access policies are applied to ensure security and isolation per project.</p>
-</li>
-<li>
-<p><strong>Serving via Reverse Proxy</strong>  </p>
-</li>
-<li>A custom reverse proxy fetches files from S3 in real time and streams them to clients.  </li>
-<li>It ensures low latency, caching, and HTTPS support.  </li>
-<li>This allows users to instantly access the deployed application via a generated live URL.</li>
-</ol>
+<h2 id="1-branch-strategy">1. Branch Strategy</h2>
+<p>The project follows a branch-based development approach. CI/CD pipelines run only for specific branches.</p>
+<h3 id="frontend-branches"><strong>Frontend Branches</strong></h3>
+<ul>
+<li><code>feature/admin-dashboard</code></li>
+<li><code>feature/ci-cd</code></li>
+</ul>
+<h3 id="backend-branches"><strong>Backend Branches</strong></h3>
+<ul>
+<li><code>feature/route53</code></li>
+<li><code>feature/ci-cd</code></li>
+</ul>
+<p>A push to any of the above branches triggers the corresponding CI/CD pipeline.</p>
 <hr />
-<h2 id="core-functional-modules">Core Functional Modules</h2>
-<p>The system is divided into several modules that work together to achieve complete automation:</p>
-<h3 id="1-user-authentication-and-autherization">1. <strong>User Authentication and Autherization</strong></h3>
-<p>Handles secure access to the system.<br />
-- Users can sign up, log in, and manage their profiles.<br />
-- Passwords are encrypted before storage.<br />
-- JWT (JSON Web Tokens) or session-based authentication ensures secure API communication.</p>
-<h3 id="2-project-management">2. <strong>Project Management</strong></h3>
-<p>Links user accounts to their GitHub repositories.<br />
-- Users can create, view, and manage projects.<br />
-- Each project record stores metadata such as repository URL, project name, and user ID.<br />
-- A single user can have multiple projects.</p>
-<h3 id="3-automated-build-deployment">3. <strong>Automated Build &amp; Deployment</strong></h3>
-<p>Responsible for compiling and preparing production builds.<br />
-- The API server triggers a build job using AWS ECS tasks.<br />
-- Each build is isolated and stateless, ensuring consistency and reproducibility.<br />
-- Logs, build status, and progress are tracked and linked to a specific deployment record.</p>
-<h3 id="4-file-hosting-and-delivery">4. <strong>File Hosting and Delivery</strong></h3>
-<p>Ensures fast and reliable access to deployed applications.<br />
-- Build artifacts are uploaded to AWS S3 with public-read or signed URL access.<br />
-- A reverse proxy layer retrieves and streams these files to users in real time.<br />
-- This design supports horizontal scaling for high-traffic applications.</p>
-<h3 id="5-database-management">5. <strong>Database Management</strong></h3>
-<p>Stores essential project data and deployment history.<br />
-- <strong>PostgreSQL</strong> is used for relational data storage.<br />
-- Contains three main tables:
-  - <strong>Users</strong> → Authentication and user profiles.<br />
-  - <strong>Projects</strong> → Repository and configuration details.<br />
-  - <strong>Deployments</strong> → Build metadata, status, and generated URLs.<br />
-- The database enables tracking deployment versions, history, and ownership.</p>
+<h2 id="2-cicd-pipeline-overview">2. CI/CD Pipeline Overview</h2>
+<p>The CI/CD process consists of the following stages:</p>
+<h3 id="21-continuous-integration"><strong>2.1 Continuous Integration</strong></h3>
+<p>Triggered when code is pushed to designated branches.</p>
+<p>Performed steps:
+- Checkout repository<br />
+- Install Node.js<br />
+- Install dependencies<br />
+- Run unit tests (if any)<br />
+- Build frontend or backend depending on the workflow<br />
+- Prepare final build artifacts  </p>
+<p>Build failures stop the pipeline immediately and prevent unsafe deployments.</p>
 <hr />
-<h2 id="functional-flow-summary">Functional Flow Summary</h2>
-<p>User → API Server → Build Server (ECS) → AWS S3 → Reverse Proxy → Live App</p>
+<h3 id="22-artifact-packaging"><strong>2.2 Artifact Packaging</strong></h3>
+<p>After a successful build:</p>
+<p><strong>Frontend</strong>
+- A production build (<code>dist/</code>) is generated.</p>
+<p><strong>Backend</strong>
+- Required backend services (API Server, Build Server, S3 Proxy Server) are prepared into a deployable folder.</p>
+<hr />
+<h3 id="23-secure-transfer-to-ec2"><strong>2.3 Secure Transfer to EC2</strong></h3>
+<p>Build artifacts are transferred to EC2 using SCP from GitHub Actions:</p>
+<ul>
+<li>GitHub Secrets store the SSH key  </li>
+<li>Only the required files are copied  </li>
+<li>No manual intervention needed  </li>
+</ul>
+<hr />
+<h3 id="24-remote-deployment-via-ssh"><strong>2.4 Remote Deployment via SSH</strong></h3>
+<p>GitHub Actions remotely connects to EC2 using SSH and performs:</p>
+<ul>
+<li>Install Node.js dependencies  </li>
+<li>Replace old build files  </li>
+<li>Restart services via PM2  </li>
+</ul>
+<p>Backend services restarted:</p>
+<pre><code class="language-bash">pm2 restart api-server
+pm2 restart build-server
+pm2 restart s3-proxy-server
+
+</code></pre>
+<h2 id="cicd-pipeline-for-backend-deployment">CI/CD Pipeline for Backend Deployment</h2>
+<p><img alt="CI/CD Backend" src="../../images/ci-cd-backend.jpeg" /> </p>
+<h2 id="cicd-pipeline-for-frontend-deployment">CI/CD Pipeline for Frontend Deployment</h2>
+<p><img alt="CI/CD Frontend" src="../../images/ci-cd-frontend.jpeg" /></p>
 
 
 

@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../..">
+        <link rel="prev" href="../code-merge-workflow/">
       
-      
-        <link rel="next" href="../functional-usecases/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>Overview - Deployment Pipeline</title>
+        <title>Security Scanning - Deployment Pipeline</title>
       
     
     
@@ -62,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#system-overview" class="md-skip">
+        <a href="#security-scanning" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Overview
+              Security Scanning
             
           </span>
         </div>
@@ -213,20 +211,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -242,7 +238,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Functional Documentation
@@ -253,32 +249,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Overview
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../functional/overview/" class="md-nav__link">
         
   
   
@@ -289,119 +263,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#workflow-summary" class="md-nav__link">
-    <span class="md-ellipsis">
-      Workflow Summary
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Workflow Summary">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#end-to-end-deployment-flow" class="md-nav__link">
-    <span class="md-ellipsis">
-      End-to-End Deployment Flow
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#core-functional-modules" class="md-nav__link">
-    <span class="md-ellipsis">
-      Core Functional Modules
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Core Functional Modules">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-user-authentication-and-autherization" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. User Authentication and Autherization
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-project-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. Project Management
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-automated-build-deployment" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. Automated Build &amp; Deployment
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-file-hosting-and-delivery" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. File Hosting and Delivery
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5-database-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. Database Management
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#functional-flow-summary" class="md-nav__link">
-    <span class="md-ellipsis">
-      Functional Flow Summary
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -414,7 +275,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../functional-usecases/" class="md-nav__link">
+      <a href="../../functional/functional-usecases/" class="md-nav__link">
         
   
   
@@ -600,18 +461,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -627,7 +490,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Technical Document
@@ -641,7 +504,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../technical-document/architecture/" class="md-nav__link">
+      <a href="../architecture/" class="md-nav__link">
         
   
   
@@ -664,7 +527,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../technical-document/data-flow-diagram/" class="md-nav__link">
+      <a href="../data-flow-diagram/" class="md-nav__link">
         
   
   
@@ -687,7 +550,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../technical-document/authentication-and-autherization/" class="md-nav__link">
+      <a href="../authentication-and-autherization/" class="md-nav__link">
         
   
   
@@ -710,7 +573,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../technical-document/technical-stack/" class="md-nav__link">
+      <a href="../technical-stack/" class="md-nav__link">
         
   
   
@@ -733,7 +596,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../technical-document/test-plan/" class="md-nav__link">
+      <a href="../test-plan/" class="md-nav__link">
         
   
   
@@ -756,7 +619,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../technical-document/ci-cd-pipeline-deployment-flow/" class="md-nav__link">
+      <a href="../ci-cd-pipeline-deployment-flow/" class="md-nav__link">
         
   
   
@@ -779,7 +642,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../technical-document/code-merge-workflow/" class="md-nav__link">
+      <a href="../code-merge-workflow/" class="md-nav__link">
         
   
   
@@ -799,10 +662,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../technical-document/Security-Scanning/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Security Scanning
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -813,6 +698,35 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-security-scanning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Security Scanning?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -852,93 +766,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#workflow-summary" class="md-nav__link">
+  <a href="#why-security-scanning" class="md-nav__link">
     <span class="md-ellipsis">
-      Workflow Summary
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Workflow Summary">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#end-to-end-deployment-flow" class="md-nav__link">
-    <span class="md-ellipsis">
-      End-to-End Deployment Flow
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#core-functional-modules" class="md-nav__link">
-    <span class="md-ellipsis">
-      Core Functional Modules
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Core Functional Modules">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-user-authentication-and-autherization" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. User Authentication and Autherization
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-project-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. Project Management
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-automated-build-deployment" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. Automated Build &amp; Deployment
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-file-hosting-and-delivery" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. File Hosting and Delivery
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5-database-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. Database Management
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#functional-flow-summary" class="md-nav__link">
-    <span class="md-ellipsis">
-      Functional Flow Summary
+      Why Security Scanning?
     </span>
   </a>
   
@@ -960,77 +790,81 @@
 
 
 
-<h1 id="system-overview">System Overview</h1>
-<p>The <strong>Deployment Pipeline</strong> automates the process of building, deploying, and hosting frontend applications directly from GitHub repositories.<br />
-It enables users to go from source code to a live, shareable URL without manual setup or server configuration.</p>
+<h1 id="security-scanning">Security Scanning</h1>
+<p>This project follows DevSecOps best practices by performing <strong>multiple layers of security scanning</strong> during development and before deployment.</p>
+<p>Tools used:</p>
+<ul>
+<li><strong>Trivy</strong> → <em>SCA (Software Composition Analysis)</em></li>
+<li><strong>Semgrep</strong> → <em>SAST (Static Application Security Testing)</em></li>
+</ul>
 <hr />
-<h2 id="workflow-summary">Workflow Summary</h2>
-<p>When a user provides a GitHub repository URL and triggers deployment, the system executes a series of automated functions that ensure seamless application delivery.</p>
-<h3 id="end-to-end-deployment-flow">End-to-End Deployment Flow</h3>
-<ol>
-<li><strong>Repository Cloning</strong>  </li>
-<li>The API server authenticates the GitHub URL provided by the user.  </li>
-<li>The build server securely clones the source code repository into an isolated environment.  </li>
-<li>
-<p>Only the latest branch or commit is fetched to optimize performance and reduce build time.</p>
-</li>
-<li>
-<p><strong>Automated Build Process</strong>  </p>
-</li>
-<li>A build server, running as an ECS task, builds the project using pre-defined Docker images stored in AWS ECR.  </li>
-<li>The environment includes dependencies such as Node.js to compile React applications.  </li>
-<li>
-<p>Once the build completes, the system generates production-ready files (HTML, CSS, JS).</p>
-</li>
-<li>
-<p><strong>Artifact Upload to AWS S3</strong>  </p>
-</li>
-<li>The built static files are uploaded to a designated S3 bucket.  </li>
-<li>The system assigns each deployment a unique directory or version ID for organized storage and rollback capability.  </li>
-<li>
-<p>Appropriate access policies are applied to ensure security and isolation per project.</p>
-</li>
-<li>
-<p><strong>Serving via Reverse Proxy</strong>  </p>
-</li>
-<li>A custom reverse proxy fetches files from S3 in real time and streams them to clients.  </li>
-<li>It ensures low latency, caching, and HTTPS support.  </li>
-<li>This allows users to instantly access the deployed application via a generated live URL.</li>
-</ol>
+<h2 id="why-security-scanning">Why Security Scanning?</h2>
+<p>Security scanning ensures:</p>
+<ul>
+<li>Early detection of vulnerabilities  </li>
+<li>Secure dependency management  </li>
+<li>No high-risk packages reach production  </li>
+<li>Coding-level security issues are caught early  </li>
+<li>Safe deployment to EC2 and cloud environments  </li>
+<li>Compliance with DevSecOps &amp; CI/CD standards  </li>
+</ul>
 <hr />
-<h2 id="core-functional-modules">Core Functional Modules</h2>
-<p>The system is divided into several modules that work together to achieve complete automation:</p>
-<h3 id="1-user-authentication-and-autherization">1. <strong>User Authentication and Autherization</strong></h3>
-<p>Handles secure access to the system.<br />
-- Users can sign up, log in, and manage their profiles.<br />
-- Passwords are encrypted before storage.<br />
-- JWT (JSON Web Tokens) or session-based authentication ensures secure API communication.</p>
-<h3 id="2-project-management">2. <strong>Project Management</strong></h3>
-<p>Links user accounts to their GitHub repositories.<br />
-- Users can create, view, and manage projects.<br />
-- Each project record stores metadata such as repository URL, project name, and user ID.<br />
-- A single user can have multiple projects.</p>
-<h3 id="3-automated-build-deployment">3. <strong>Automated Build &amp; Deployment</strong></h3>
-<p>Responsible for compiling and preparing production builds.<br />
-- The API server triggers a build job using AWS ECS tasks.<br />
-- Each build is isolated and stateless, ensuring consistency and reproducibility.<br />
-- Logs, build status, and progress are tracked and linked to a specific deployment record.</p>
-<h3 id="4-file-hosting-and-delivery">4. <strong>File Hosting and Delivery</strong></h3>
-<p>Ensures fast and reliable access to deployed applications.<br />
-- Build artifacts are uploaded to AWS S3 with public-read or signed URL access.<br />
-- A reverse proxy layer retrieves and streams these files to users in real time.<br />
-- This design supports horizontal scaling for high-traffic applications.</p>
-<h3 id="5-database-management">5. <strong>Database Management</strong></h3>
-<p>Stores essential project data and deployment history.<br />
-- <strong>PostgreSQL</strong> is used for relational data storage.<br />
-- Contains three main tables:
-  - <strong>Users</strong> → Authentication and user profiles.<br />
-  - <strong>Projects</strong> → Repository and configuration details.<br />
-  - <strong>Deployments</strong> → Build metadata, status, and generated URLs.<br />
-- The database enables tracking deployment versions, history, and ownership.</p>
+<h1 id="tools-used">Tools Used</h1>
 <hr />
-<h2 id="functional-flow-summary">Functional Flow Summary</h2>
-<p>User → API Server → Build Server (ECS) → AWS S3 → Reverse Proxy → Live App</p>
+<h2 id="1-trivy-vulnerability-dependency-scanning-sca">1. <strong>Trivy — Vulnerability &amp; Dependency Scanning (SCA)</strong></h2>
+<p>Trivy scans project dependencies, build artifacts, and the filesystem to detect vulnerabilities, misconfigurations, and exposed secrets.</p>
+<h3 id="used-to-scan"><strong>Used to Scan:</strong></h3>
+<ul>
+<li>Backend servers  </li>
+<li>Frontend build artifacts  </li>
+<li><code>node_modules</code>  </li>
+<li>Docker images (if applicable)  </li>
+<li>Entire project folder  </li>
+<li>Secrets and configuration issues  </li>
+</ul>
+<h3 id="trivy-scan-output"><strong>Trivy Scan Output</strong></h3>
+<p><img alt="Trivy Scan" src="../../images/trivy-test.jpeg" /></p>
+<hr />
+<h2 id="2-semgrep-static-code-analysis-sast">2. <strong>Semgrep — Static Code Analysis (SAST)</strong></h2>
+<p>Semgrep scans application <strong>source code</strong> to detect insecure coding patterns, logic flaws, and violations of security best practices.<br />
+It helps developers catch issues early without running the application.</p>
+<h3 id="used-to-scan_1"><strong>Used to Scan:</strong></h3>
+<ul>
+<li>Backend Node.js source code  </li>
+<li>Frontend React/Vite source code  </li>
+<li>API route handlers &amp; controllers  </li>
+<li>Authentication &amp; authorization logic  </li>
+<li>Input validation and sanitization  </li>
+<li>Hardcoded secrets in code  </li>
+<li>Insecure functions or unsafe patterns  </li>
+<li>OWASP Top 10 categories (Injection, XSS, Access Control, etc.)  </li>
+</ul>
+<h3 id="semgrep-scan-output"><strong>Semgrep Scan Output</strong></h3>
+<p><img alt="Semgrep Scan" src="../../images/semagrep-test.jpeg" /></p>
+<hr />
+<h1 id="summary">Summary</h1>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Scan Type</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Trivy</strong></td>
+<td>SCA</td>
+<td>Scans dependencies, build artifacts &amp; filesystem for vulnerabilities</td>
+</tr>
+<tr>
+<td><strong>Semgrep</strong></td>
+<td>SAST</td>
+<td>Performs static analysis to find security issues in source code</td>
+</tr>
+</tbody>
+</table>
+<hr />
 
 
 
